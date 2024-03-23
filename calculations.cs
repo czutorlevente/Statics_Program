@@ -35,7 +35,7 @@ public class Calculator
             weight_moments += weights[i] * distances[i];
         }
 
-        double support_B = Math.Abs(weight_moments / pillar_distance);
+        double support_B = (weight_moments / pillar_distance);
         double support_A = allweights - support_B;
 
         Console.WriteLine($"Moments on A = {moments_A} = 0. So based on that By = {support_B} {weight_unit}");

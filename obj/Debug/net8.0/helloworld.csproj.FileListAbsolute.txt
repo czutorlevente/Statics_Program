@@ -12,3 +12,4 @@ C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Sta
 C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\obj\Debug\net8.0\helloworld.pdb
 C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\obj\Debug\net8.0\helloworld.genruntimeconfig.cache
 C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\obj\Debug\net8.0\ref\helloworld.dll
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\obj\Debug\net8.0\helloworld.sourcelink.json
