@@ -6,7 +6,7 @@ public class Manager
     {
         bool exit = false;
         string unit_1 = "#";
-        string unit_2 = "inches";
+        string unit_2 = "feet";
         while (exit == false)
         {
             Console.WriteLine("Choose from the following menu options:\n\n1 - Support reactions\n2 - \n3 - Change default units of measurement\n4 - Exit\n");
