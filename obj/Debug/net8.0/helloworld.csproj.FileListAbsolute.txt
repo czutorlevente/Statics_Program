@@ -1,0 +1,14 @@
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\bin\Debug\net8.0\helloworld.exe
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\bin\Debug\net8.0\helloworld.deps.json
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\bin\Debug\net8.0\helloworld.runtimeconfig.json
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\bin\Debug\net8.0\helloworld.dll
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\bin\Debug\net8.0\helloworld.pdb
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\obj\Debug\net8.0\helloworld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\obj\Debug\net8.0\helloworld.AssemblyInfoInputs.cache
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\obj\Debug\net8.0\helloworld.AssemblyInfo.cs
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\obj\Debug\net8.0\helloworld.csproj.CoreCompileInputs.cache
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\obj\Debug\net8.0\helloworld.dll
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\obj\Debug\net8.0\refint\helloworld.dll
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\obj\Debug\net8.0\helloworld.pdb
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\obj\Debug\net8.0\helloworld.genruntimeconfig.cache
+C:\Users\gaming hp laptop\OneDrive - BYU-Idaho\Documents\Applied Programming\Statics\Statics_Program\obj\Debug\net8.0\ref\helloworld.dll
