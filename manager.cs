@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 
 public class Manager
 {
@@ -9,7 +10,7 @@ public class Manager
         string unit_2 = "feet";
         while (exit == false)
         {
-            Console.WriteLine("Choose from the following menu options:\n\n1 - Support reactions\n2 - \n3 - Change default units of measurement\n4 - Exit\n");
+            Console.WriteLine("Choose from the following menu options:\n\n1 - Support reactions\n2 - Check previous calculations\n3 - Change default units of measurement\n4 - Exit\n");
             Console.Write("Your choice: ");
             int response = int.Parse(Console.ReadLine());
 
@@ -32,5 +33,13 @@ public class Manager
             }
 
         }
+    }
+
+    public static void Save_Calculation(string toSave)
+    {
+        FileStream mystream = new FileStream("history.txt", FileMode.OpenOrCreate, FileAccess.Write);           
+        StreamWriter tw = new StreamWriter(mystream); 
+        tw.WriteLine(toSave);
+        tw.Close();
     }
 }
