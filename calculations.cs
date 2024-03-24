@@ -19,24 +19,39 @@ public class Calculator
         //Add normal point loads
         for (int i = 0; i < weightNumber; i++)
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+
             Console.Write($"Weight of point load {i + 1} in {weight_unit}: ");
             weights[i] = double.Parse(Console.ReadLine());
+
+            Console.ForegroundColor = ConsoleColor.Red;
+
             Console.Write($"Distance of point load {i + 1} from pillar 'A' in {distance_unit}\n(positive to the right, negative to the left): ");
             distances[i] = double.Parse(Console.ReadLine());
             allweights += weights[i];
+
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
         //Add distributed loads and convert them to point loads.
         for (int i = 0; i < distributed_weightNumber; i++)
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+
             Console.Write($"Width of distributed load {i + 1} in {distance_unit}: ");
             double width_d = double.Parse(Console.ReadLine());
+
+            Console.ForegroundColor = ConsoleColor.Green;
 
             Console.Write($"Distance of closest end of distributed load {i + 1} from pillar 'A'\nin {distance_unit} (positive to the right, negative to the left): ");
             double distance_d = double.Parse(Console.ReadLine());
 
+            Console.ForegroundColor = ConsoleColor.Magenta;
+
             Console.Write($"Load amount of distributed load {i + 1} ({weight_unit}/{distance_unit}): ");
             double amount_d = double.Parse(Console.ReadLine());
+
+            Console.ForegroundColor = ConsoleColor.White;
 
             var distributed_results = DistributedLoads(width_d, amount_d, distance_d);
             weights[weightNumber + i] = distributed_results.Item1;
@@ -61,9 +76,11 @@ public class Calculator
         double support_B = (weight_moments / pillar_distance);
         double support_A = allweights - support_B;
 
-        Console.WriteLine($"Moments on A = {moments_A} = 0. So based on that By = {support_B} {weight_unit}");
+        Console.WriteLine($"\nMoments on A = {moments_A} = 0. So based on that By = {support_B} {weight_unit}");
         Console.WriteLine($"and because A(y) + B(y) = sum of all weights ({allweights} {weight_unit}), A(y) = {support_A}) ");
         Console.WriteLine($"\nSo the support reaction on pillar A is {support_A} {weight_unit} and on B is {support_B} {weight_unit}");
+
+        Console.ReadLine();
 
     }
 
