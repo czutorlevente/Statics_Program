@@ -3,6 +3,7 @@ using System.IO;
 
 public class Manager
 {
+    //Handle main menu
     public static void menu()
     {
         bool exit = false;
@@ -35,6 +36,7 @@ public class Manager
         }
     }
 
+    //Save a string to history.txt
     public static void Save_Calculation(string toSave)
     {
         FileStream mystream = new FileStream("history.txt", FileMode.OpenOrCreate, FileAccess.Write);           

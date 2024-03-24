@@ -2,6 +2,8 @@ using System;
 
 public class Appearance
 {
+
+    //Highlight (make yellow) any selected word in a string sentence.
     public static void Highlight(string sentence, string word_1)
     {
         string[] words = sentence.Split(' ');
