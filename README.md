@@ -4,27 +4,22 @@ I wrote a software that is able to solve a typical statical calculation about th
 
 I wrote this because it can help me in another class, Statics and Strengths of Materials.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/HzWIEIxq1TM)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I used previous projects of mine to reming myself of some of the syntax, and asked chat GPT a lot too. 
 
-{Describe the programming language that you used and any libraries.}
+The programming language was C#, and I only usecd the system library, which included everything that I needed for this project.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [YouTube](https://youtube.com)
+- [ChatGPT](https://chat.openai.com/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- For my next assignment I want to create code that will draw diagrams for these calculations (like moment and shear diagrams based on my bridge claculation)
+- I want to figure out why the program was unable to save to a text file.
+- I want to add a user interface, making this calculator into a web app.
